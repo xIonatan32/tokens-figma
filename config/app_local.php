@@ -39,7 +39,7 @@ return [
      */
     'Datasources' => [
         'default' => [
-            'host' => 'mysql-figmaproto-web-719a.k.aivencloud.com',
+            'host' => 'xxxxxxxx',
             /*
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
@@ -47,10 +47,10 @@ return [
              */
             //'port' => 'non_standard_port_number',
 
-            'username' => 'avnadmin',
-            'password' => 'AVNS_EkMsEmeWuimr7C1tnBr',
+            'username' => 'xxxxxxxx',
+            'password' => 'xxxxxxxx',
 
-            'database' => 'defaultdb',
+            'database' => 'xxxxxxxx',
             /*
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.
@@ -67,11 +67,11 @@ return [
          * The test connection is used during the test suite.
          */
         'test' => [
-            'host' => 'mysql-figmaproto-web-719a.k.aivencloud.com',
+            'host' => 'xxxxxxxx',
             //'port' => 'non_standard_port_number',
-            'username' => 'avnadmin',
-            'password' => 'AVNS_EkMsEmeWuimr7C1tnBr',
-            'database' => 'defaultdb',
+            'username' => 'xxxxxxxx',
+            'password' => 'xxxxxxxx',
+            'database' => 'xxxxxxxx',
             //'schema' => 'myapp',
             'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tmp/tests.sqlite'),
         ],
